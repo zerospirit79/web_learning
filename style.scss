@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding: 0 calc(50% - 500px);
+}
+
+.header {
+    height: 200px;
+    background-color: saturate($color: gray, $amount: 1);
+    display: flex;
+
+    &__logo {
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.product {
+    border: 1px solid gray;
+    width: 250px;
+    height: 350px;
+    &__name{
+        text-align: center;
+        color: blue;
+    }
+    &__text{
+        font-size: 16px;
+    }
+}
+
+.footer {
+    background-color: #eee;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+    &__logo {
+        margin-top: 30px;
+        margin-right: 85px;
+    }
+}
+
+.none {
+    display: none;
+}
